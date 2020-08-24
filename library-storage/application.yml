@@ -1,6 +1,7 @@
 spring:
   datasource:
     initialization-mode: always
+    jdbc:h2:mem:storage
 
   jpa:
     generate-ddl: false
